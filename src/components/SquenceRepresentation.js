@@ -31,7 +31,8 @@ class SquenceRepresentation extends Component {
     this.state = {
       sequence: props.sequence,
       codeElement: 10,
-      synth: new Tone.Synth().toMaster()
+      synth: new Tone.Synth().toMaster(),
+      basicSynth: new Tone.OmniOscillator().toMaster()
     };
 
     this.toneTesting();
@@ -56,13 +57,27 @@ class SquenceRepresentation extends Component {
 
     var sine = new Tone.Oscillator(440, "sine").toMaster();
     //start the oscillator at 0
-
-    let loop = new Tone.Loop(function(time){
-      sine.start(time);
-      sine.stop(time + 0.5);
-    }, 2);
+    // sine.start(1);
+    // sine.stop(1 + 0.5);
+    // let loop = new Tone.Loop(function(time){
+    //   sine.start(time);
+    //   sine.stop(time + 0.5);
+    // }, 2);
     //loop.start(0);
     //Tone.Transport.start();
+
+    var osc = new Tone.OmniOscillator().toMaster();
+    let synth = new Tone.Synth().toMaster();
+    //.stop(2);
+    console.log("Antes");
+    var seq = new Tone.Sequence(function(time, note){
+      synth.triggerAttackRelease(note, "8n", time);
+      console.log("Reproduciendo:", note);
+    }, ["C4", "E4", "G4", "A4"], 4);
+    seq.loop = false;
+    //Tone.Transport.start();
+    //seq.start();
+    //seq.stop();
   }
 
   _onClickDrawButton(){
@@ -115,6 +130,7 @@ class SquenceRepresentation extends Component {
 
   _resultDraw(){
     let dataRender = [];
+    let toneSequence = [];
     const sequence = this.state.sequence;
     let MAX_LINE = this.state.codeElement;
 
@@ -128,11 +144,18 @@ class SquenceRepresentation extends Component {
           <div className={"frame-block"} key={sequence[i]+'_'+i} style={style}>{sequence[i]}</div>
       );
       dataRender.push(element);
-
-      this.state.synth.triggerAttackRelease(this.mapping_tones[sequence[i]].tone, 0.4, 1);
-
+      toneSequence.push(this.mapping_tones[sequence[i]].tone);
+      //this.state.synth.triggerAttackRelease(this.mapping_tones[sequence[i]].tone, 0.4, 1);
 
     }
+
+    let synth = new Tone.Synth().toMaster();
+    var seq = new Tone.Sequence(function(time, note){
+      synth.triggerAttackRelease(note, 10, time);
+    }, toneSequence, 0.1);
+    seq.loop = false;
+    Tone.Transport.start();
+    seq.start();
 
     return (
         <article className="pure-u-24-24" >
