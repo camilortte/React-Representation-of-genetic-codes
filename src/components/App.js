@@ -3,7 +3,7 @@ import './global/css/App.css';
 import Header from './global/Header'
 import UploadSequence from './UploadSequence'
 import Footer from "./global/Footer";
-import CalcORF from "./CalcORF";
+import SquenceRepresentation from "./SquenceRepresentation";
 
 class App extends Component {
 
@@ -29,7 +29,7 @@ class App extends Component {
         <div className="content">
           <Header/>
           <UploadSequence onLoadSequences={this.onLoadSequences}/>
-          <CalcORF sequence={this.state.sequence}/>
+          <SquenceRepresentation sequence={this.state.sequence}/>
         </div>
         <Footer/>
       </div>

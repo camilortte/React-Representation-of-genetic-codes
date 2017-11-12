@@ -5,7 +5,7 @@
     background-color: #195619;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
 }
 .frame-block:hover {
     -webkit-transform: scale(1.010);
