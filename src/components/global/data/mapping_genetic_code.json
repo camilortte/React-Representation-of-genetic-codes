@@ -1,0 +1,395 @@
+{
+    "//": "Amarillos=Azules NONPOLAR, frecuencia Base: 100-200",
+	"TTT": {
+      "color": "#0044cc",
+      "tone": "C2",
+      "frequency": "100",
+      "instrument": "electric_piano"
+    },
+	"TTC": {
+      "color": "#6699ff",
+      "tone": "C#2",
+      "frequency": "110",
+      "instrument": "electric_piano"
+    },
+	"TTA": {
+      "color": "#0000ff",
+      "tone": "D2",
+      "frequency": "160",
+      "instrument": "electric_piano"
+    },
+	"TTG": {
+      "color": "#6666ff",
+      "tone": "E2",
+      "frequency": "170",
+      "instrument": "electric_piano"
+    },
+	"CTT": {
+      "color": "#0039e6",
+      "tone": "F2",
+      "frequency": "180",
+      "instrument": "electric_piano"
+    },
+	"CTC": {
+      "color": "#668cff",
+      "tone": "F#2",
+      "frequency": "190",
+      "instrument": "electric_piano"
+    },
+	"CTA": {
+      "color": "#5353c6",
+      "tone": "G2",
+      "frequency": "210",
+      "instrument": "electric_piano"
+    },
+	"CTG": {
+      "color": "#8c8cd9",
+      "tone": "G#2",
+      "frequency": "220",
+      "instrument": "electric_piano"
+    },
+	"ATT": {
+      "color": "#1a75ff",
+      "tone": "A2",
+      "frequency": "270",
+      "instrument": "electric_piano"
+    },
+	"ATC": {
+      "color": "#80b3ff",
+      "tone": "A#2",
+      "frequency": "280",
+      "instrument": "electric_piano"
+    },
+	"ATA": {
+      "color": "#0052cc",
+      "tone": "B2",
+      "frequency": "290",
+      "instrument": "electric_piano"
+    },
+	"ATG": {
+      "color": "#4d94ff",
+      "tone": "C3",
+      "frequency": "340",
+      "instrument": "electric_piano"
+    },
+	"GTT": {
+      "color": "#0033cc",
+      "tone": "C#3",
+      "frequency": "390",
+      "instrument": "electric_piano"
+    },
+	"GTC": {
+      "color": "#668cff",
+      "tone": "D3",
+      "frequency": "400",
+      "instrument": "electric_piano"
+    },
+	"GTA": {
+      "color": "#4747d1",
+      "tone": "D#3",
+      "frequency": "410",
+      "instrument": "electric_piano"
+    },
+	"GTG": {
+      "color": "#9999e6",
+      "tone": "E3",
+      "frequency": "420",
+      "instrument": "electric_piano"
+    },
+	"CCT": {
+      "color": "#1a8cff",
+      "tone": "F3",
+      "frequency": "470",
+      "instrument": "electric_piano"
+    },
+	"CCC": {
+      "color": "#66b3ff",
+      "tone": "F#3",
+      "frequency": "480",
+      "instrument": "electric_piano"
+    },
+	"CCA": {
+      "color": "#80bfff",
+      "tone": "G#3",
+      "frequency": "490",
+      "instrument": "electric_piano"
+    },
+	"CCG": {
+      "color": "#b3d9ff",
+      "tone": "A3",
+      "frequency": "500",
+      "instrument": "electric_piano"
+    },
+	"GCT": {
+      "color": "#4d4dff",
+      "tone": "A#3",
+      "frequency": "550",
+      "instrument": "electric_piano"
+    },
+	"GCC": {
+      "color": "#8080ff",
+      "tone": "B3",
+      "frequency": "560",
+      "instrument": "electric_piano"
+    },
+	"GCA": {
+      "color": "#b3b3f",
+      "tone": "C4",
+      "frequency": "570",
+      "instrument": "electric_piano"
+    },
+	"GCG": {
+      "color": "#e6e6ff",
+      "tone": "C#4",
+      "frequency": "580",
+      "instrument": "electric_piano"
+    },
+	"TGG": {
+      "color": "#944dff",
+      "tone": "D4",
+      "frequency": "630",
+      "instrument": "electric_piano"
+    },
+	"GGT": {
+      "color": "#7300e6",
+      "tone": "D#4",
+      "frequency": "680",
+      "instrument": "electric_piano"
+    },
+	"GGC": {
+      "color": "#8c1aff",
+      "tone": "E4",
+      "frequency": "690",
+      "instrument": "electric_piano"
+    },
+	"GGA": {
+      "color": "#9933ff",
+      "tone": "F4",
+      "frequency": "700",
+      "instrument": "electric_piano"
+    },
+	"GGG": {
+      "color": "#a64dff",
+      "tone": "G4",
+      "frequency": "710",
+      "instrument": "electric_piano"
+    },
+
+    "//": "Verdes=Morados POLAR 800",
+	"TCT": {
+      "color": "#8c1aff",
+      "tone": "G4",
+      "frequency": "800",
+      "instrument": "violin"
+    },
+	"TCC": {
+      "color": "#b366ff",
+      "tone": "G#4",
+      "frequency": "810",
+      "instrument": "violin"
+    },
+	"TCA": {
+      "color": "#cc99ff",
+      "tone": "A4",
+      "frequency": "820",
+      "instrument": "violin"
+    },
+	"TCG": {
+      "color": "#d9b3ff",
+      "tone": "A#4",
+      "frequency": "830",
+      "instrument": "violin"
+    },
+	"ACT": {
+      "color": "#ac00e6",
+      "tone": "B4",
+      "frequency": "880",
+      "instrument": "violin"
+    },
+	"ACC": {
+      "color": "#c61aff",
+      "tone": "C5",
+      "frequency": "890",
+      "instrument": "violin"
+    },
+	"ACA": {
+      "color": "#d966ff",
+      "tone": "C#5",
+      "frequency": "900",
+      "instrument": "violin"
+    },
+	"ACG": {
+      "color": "#e699ff",
+      "tone": "D5",
+      "frequency": "910",
+      "instrument": "violin"
+    },
+	"TAT": {
+      "color": "#993399",
+      "tone": "D#5",
+      "frequency": "960",
+      "instrument": "violin"
+    },
+	"TAC": {
+      "color": "#c653c6",
+      "tone": "E5",
+      "frequency": "970",
+      "instrument": "violin"
+    },
+	"CAA": {
+      "color": "#e600e6",
+      "tone": "F5",
+      "frequency": "1020",
+      "instrument": "violin"
+    },
+	"CAG": {
+      "color": "#ff33ff",
+      "tone": "F#5",
+      "frequency": "1030",
+      "instrument": "violin"
+    },
+	"AAT": {
+      "color": "#ff80ff",
+      "tone": "G5",
+      "frequency": "1080",
+      "instrument": "violin"
+    },
+	"AAC": {
+      "color": "#ffb3ff",
+      "tone": "G#5",
+      "frequency": "1090",
+      "instrument": "violin"
+    },
+	"TGT": {
+      "color": "#8f246b",
+      "tone": "A5",
+      "frequency": "1140",
+      "instrument": "violin"
+    },
+	"TGC": {
+      "color": "#d147a3",
+      "tone": "A#5",
+      "frequency": "1150",
+      "instrument": "violin"
+    },
+	"AGT": {
+      "color": "#99004d",
+      "tone": "B5",
+      "frequency": "1200",
+      "instrument": "violin"
+    },
+	"AGC": {
+      "color": "#cc0066",
+      "tone": "C6",
+      "frequency": "1210",
+      "instrument": "violin"
+    },
+
+    "//": "Morados Oscuros=Naranjas STOP - 70-100",
+	"TAA": {
+      "color": "#ff6600",
+      "tone": "E3",
+      "frequency": "70",
+      "instrument": "trombone"
+    },
+	"TAG": {
+      "color": "#ff8533",
+      "tone": "F#3",
+      "frequency": "75",
+      "instrument": "trombone"
+    },
+	"TGA": {
+      "color": "#ffa366",
+      "tone": "G#3",
+      "frequency": "90",
+      "instrument": "trombone"
+    },
+
+    "//": "Morados=Cyan BASIC 1300",
+	"CAT": {
+      "color": "#00ccff",
+      "tone": "F#2",
+      "frequency": "1300",
+      "instrument": "acustic_guitar"
+    },
+	"CAC": {
+      "color": "#4ddbff",
+      "tone": "G2",
+      "frequency": "1310",
+      "instrument": "acustic_guitar"
+    },
+	"AAA": {
+      "color": "#4dd2ff",
+      "tone": "G#2",
+      "frequency": "1360",
+      "instrument": "acustic_guitar"
+    },
+	"AAG": {
+      "color": "#80dfff",
+      "tone": "A2",
+      "frequency": "1370",
+      "instrument": "acustic_guitar"
+    },
+	"CGT": {
+      "color": "#00ffcc",
+      "tone": "A#2",
+      "frequency": "1420",
+      "instrument": "acustic_guitar"
+    },
+	"CGC": {
+      "color": "#4dffdb",
+      "tone": "B2",
+      "frequency": "1430",
+      "instrument": "acustic_guitar"
+    },
+	"CGA": {
+      "color": "#80ffe5",
+      "tone": "C3",
+      "frequency": "1440",
+      "instrument": "acustic_guitar"
+    },
+	"CGG": {
+      "color": "#99ffeb",
+      "tone": "C#3",
+      "frequency": "1450",
+      "instrument": "acustic_guitar"
+    },
+	"AGA": {
+      "color": "#1affb2",
+      "tone": "D3",
+      "frequency": "1500",
+      "instrument": "acustic_guitar"
+    },
+	"AGG": {
+      "color": "#80ffd4",
+      "tone": "D3",
+      "frequency": "1510",
+      "instrument": "acustic_guitar"
+    },
+
+	"//": "Rosados=Verdes ACIDIC",
+	"GAT": {
+      "color": "#1aff66",
+      "tone": "C3",
+      "frequency": "1600",
+      "instrument": "bass"
+    },
+	"GAC": {
+      "color": "#4dff88",
+      "tone": "C#3",
+      "frequency": "1610",
+      "instrument": "bass"
+    },
+	"GAA": {
+      "color": "#1aff1a",
+      "tone": "D3",
+      "frequency": "1660",
+      "instrument": "bass"
+    },
+	"GAG": {
+      "color": "#66ff66",
+      "tone": "D#3",
+      "frequency": "1670",
+      "instrument": "bass"
+    }
+}

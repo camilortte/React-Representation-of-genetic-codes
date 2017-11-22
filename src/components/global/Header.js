@@ -12,7 +12,7 @@ class Header extends Component {
           <div className="pure-u-24-24 text-container text-center">
             <img src={logo} className="App-logo" alt="logo" />
             <h1>Universidad Distrital</h1>
-            <h3>Bioinformática - Marco de lectura (ORF)</h3>
+            <h3>Bioinformática - Representación Código Genético</h3>
           </div>
         </div>
       </div>

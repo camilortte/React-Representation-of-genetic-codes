@@ -55,3 +55,15 @@
     text-align: left;
     margin: 0;
 }
+
+.action-align{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+select{
+    height: 3em;
+    margin-right: 1em;
+    border-radius: 11px;
+    width: 14em;
+}
